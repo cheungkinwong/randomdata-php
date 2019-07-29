@@ -11,6 +11,7 @@ while ($current_line <= $amount_of_lines)
     $current_line ++; 
     array_push($data, $array);
 }
+print_r($data);
 $myJSON = json_encode($data);
 echo $myJSON;
 ?>

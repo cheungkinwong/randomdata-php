@@ -1,0 +1,4 @@
+Options +FollowSymLinks -Multiviews
+RewriteEngine On
+
+RewriteRule ^randomdata/([0-20]+) randomdata.php/?amount_of_lines=$1
